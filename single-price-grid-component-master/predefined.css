@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.no-bullet {
+  list-style: none;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cyan {
+  background-color: hsl(179, 62%, 43%);
+}
+.lighter-cyan {
+  background-color: hsl(179, 68%, 46%);
+}
+.bright-yellow {
+  background-color: hsl(71, 73%, 54%);
+}
+.light-gray {
+  background-color: hsl(204, 43%, 93%);
+}
+.light-gray-font {
+  color: hsl(204, 43%, 93%);
+}
+.grayish-blue-font {
+  color: hsl(218, 22%, 67%);
+}
+.white {
+  background-color: #fff;
+}
