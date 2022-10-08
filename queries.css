@@ -1,0 +1,25 @@
+/* BELOW 375px */
+@media (max-width: 23.44em) {
+  html {
+    font-size: 50%;
+  }
+  button {
+    width: 100%;
+  }
+}
+/* BELOW 610px */
+@media (max-width: 40.625em) {
+  html {
+    font-size: 56.35%;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+  }
+  .cta,
+  .subscription,
+  .reason {
+    padding: 2.5rem;
+  }
+}
